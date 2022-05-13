@@ -11,15 +11,15 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: '',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
+	greetingAfternoon: 'Good afternoon',
+	greetingEvening: 'Good evening',
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
@@ -61,7 +61,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '3',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Elden Ring',
+					link: 'https://www.youtube.com/watch?v=nzaNzCepn_E&list=PL2w9DXAd9YaWbbtHYTVbvtz-ntFRe7xax&index=1&t=6531s',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Dark Souls 3',
+					link: 'https://www.youtube.com/watch?v=XmcxlapnQy8',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Bloodborne',
+					link: 'https://www.youtube.com/watch?v=tGeYmC9bK68',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Sekiro',
+					link: 'https://www.youtube.com/watch?v=me0JS9fA3pI',
 				},
 			],
 		},
@@ -169,8 +169,8 @@ const CONFIG = {
 					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Unsplash',
+					link: 'https://unsplash.com/',
 				},
 				{
 					name: 'Slack',
